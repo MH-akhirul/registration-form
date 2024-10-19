@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #ededed;
+    width: 200px;
+    margin: 25px auto;
+
+}
+body h1 {
+    background-image: linear-gradient( red, rgb(209, 255, 71));
+    /* width: 200px; */
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0;
+    color:white;
+}
+
+.box {
+    display:flex;
+    flex-direction: column;
+    /* width: 200px; */
+     /* background-color: white; */
+    /* padding: 15px; */
+    /* margin: 0 auto; */
+    /* margin-top: 25px; */
+    border-radius: 10px;
+}
+.continor {
+   background-color: white;
+   padding: 15px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+form input[type= "email"], form input[type="password"], form input[type="submit"] {
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+form input[type="submit"] {
+    background-image: linear-gradient( red, rgb(209, 255, 71));
+    border: 0;
+}
+
+form input[type="submit"]:hover {
+    background-image: linear-gradient( red, rgb(209, 255, 71));
+    border: 0;
+    box-shadow: 5px 5px lightblue;
+}
+
+.info {
+    display: flex;
+    font-size: 11px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+form p {
+    margin: 0;
+    font-size: 11px;
+    text-align: center;
+}
+form  a {
+    color:blue;
+}
